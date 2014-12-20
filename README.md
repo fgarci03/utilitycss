@@ -7,13 +7,13 @@ All the tools used have liks to the original project, which in some cases, is wa
 
 Utilities:
 ============
-Video Wrapper - Fluid/Responsive video container: http://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
+**Video Wrapper** - *Fluid/Responsive video container*: http://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
 
-Code Highlighter- Highlight your code with a tiny library: http://github.com/fgarci03/highlightcss
+**Code Highlighter**- *Highlight your code with a tiny library*: http://github.com/fgarci03/highlightcss
 
-Ungrid - Responsive, table-based CSS grid system: http://chrisnager.github.io/ungrid/
+**Ungrid** - *Responsive, table-based CSS grid system*: http://chrisnager.github.io/ungrid/
 
-SimpleCSS - Bare-boned responsive CSS "framework": https://github.com/neculaesei/simplecss (only a few features from it)
+**SimpleCSS** - *Bare-boned responsive CSS "framework"*: https://github.com/neculaesei/simplecss (only a few features from it)
 
 
 Example usage:
