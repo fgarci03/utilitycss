@@ -1,7 +1,7 @@
 /************************************************************
  * Utility.css - Just add it!                               *
  *                                                          *
- * Utility.css is a simple utility set of "tools" that will	*
+ * Utility.css is a simple utility set of "tools" that will *
  * make your life easier while building a website.          *
  * Compatible with other css frameworks, it just adds a few *
  * tweaks to allow simple costumization.                    *
@@ -45,10 +45,6 @@ html {
 	width: 100%;
 	height: 100%;
 }
-/* testar
-ver interferencias nos elementos
-ungrid em conjunto com simple.css (mudar nomes row e col)
-*/
 
 
 /*
