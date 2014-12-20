@@ -38,4 +38,4 @@ Just send me the code!
 ============
 Filipe Garcia [https://github.com/fgarci03/](https://github.com/fgarci03/)
 
-Copyright - [GNU General Public License](LICENSE.md)
+Copyright - [MIT](LICENSE.md)
