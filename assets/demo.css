@@ -1,0 +1,21 @@
+.line.ung {
+  text-align: center;
+}
+
+.sep.ung {
+  height: 2em;
+  vertical-align: middle;
+  line-height: 2em;
+  background-color: teal;
+}
+
+.sep.ung:nth-of-type(2n) {
+  background-color: #95cbcb;
+}
+
+@media (max-width: 30em) {
+.sep.ung {
+  height: 1em;
+  line-height: 1em;
+  }
+}

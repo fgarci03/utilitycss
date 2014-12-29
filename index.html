@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A CSS Toolkit">
+  <meta name="author" content="Filipe Garcia">
+  
+  <title>UtilityCSS</title>
+
+  <link href="dist/utility.css" rel="stylesheet" media="screen">
+  <link href="assets/demo.css" rel="stylesheet" media="screen">
+	
+
+</head>
+<body>
+<div class="block">
+  <div>
+    <h1>Utility.css<br /><small style="color: #999;">A clean set of tools.</small></h1>
+    <p class="text-justify">
+	  Tiny tools to get you going. I put together a set of interesting utilities that can be used while creating a website. Just with pure CSS, and compatible with most frameworks around. All the tools used have liks to the original project, which in some cases, is way more complete than this. I just used some snippets that may be of interest. No "beautifying", no nothing. Just tools.
+	  <br />
+	  <small>(<strong>Actually</strong>, there is a very small amount of "beautifying" elements, but just for basic presentation of the page. I consider that important, and no page should ever be published without some very basic elements like fonts and such. That's my opinion though...)</small>
+	</p>
+  </div>
+
+  <br />
+  <h3>Download</h3>
+  <p class="text-justify">Check out the source code on <a href="https://github.com/fgarci03/utilitycss" target="_blank">GitHub</a>, or download it <a href="https://github.com/fgarci03/utilitycss/tree/master/dist/utility.min.css">here</a>.</p>
+
+  <br /><br />
+  <h3>Usage</h3>
+  <p class="text-justify">Include <code>utility.min.css</code> in your project using: <br class="invisible m:visible" /><code>&lt;link rel="stylesheet" href="utility.min.css"&gt;</code></p>
+  <div class="block">
+    <h4>Gotchas</h4>
+    <ul>
+      <li class="text-justify">This stylesheet DOES use some <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> inspired elements. It's not my goal to make a Bootstrap clone, but I must be humble and use what I think it's simple and fantastic about it!</li>
+      <li class="text-justify">It should be fully compatible with Bootstrap too, and any other Framework. Despite that, it's not 100% guaranteed, and if you find any inconsistencies, <a href="https://github.com/fgarci03/utilitycss/issues" target="_blank">please open an issue</a>.</li>
+	  <li class="text-justify">There are 3 types of responsiveness here: If nothing is said, it's the default one that applies to all screens. But there is also Tablet (<code>t:</code>), for devices between 480 and 750px width, and mobile (<code>m:</code>) for devices with less than 480px. Basically all you have to do is to append a <code>t:</code> and/or <code>m:</code> (without any spaces) with the class you want to assign to those devices to (only on some features, this document will let you know which ones!)</li>
+	</ul>
+
+
+	<br /><br /><hr>
+	<h4>UnGrid</h4>
+    <p class="text-justify">Originally from <a href="http://chrisnager.github.io/ungrid/" target="_blank">Chris Nager</a>. The simple, responsive, table-based CSS grid system.</p>
+    <p class="text-justify">To use, just put as many <code>.sep</code>'s (sep as in separator) as you wish in your <code>line</code>'s, and they will all be evenly spaced. Check the example:</p>
+    <div class="block">
+      <div class="line ung">
+        <div class="sep ung">&</div>
+      </div>
+      <div class="line ung">
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+      </div>
+      <div class="line ung">
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+      </div>
+      <div class="line ung">
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+      </div>
+      <div class="line ung">
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+      </div>
+      <div class="line ung">
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+      </div>
+      <div class="line ung">
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+      </div>
+      <div class="line ung">
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+      </div>
+      <div class="line ung">
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+      </div>
+      <div class="line ung">
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung">&</div>
+      </div>
+    </div>
+    <br />
+    <p class="text-justify">Here's the code used:</p>
+    <div class="block">
+      <pre class="highl dark" data-code="HTML">
+  &lt;div class="block"&gt;
+    &lt;div class="line"&gt;
+      &lt;div class="sep"&gt;&&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="line"&gt;
+      &lt;div class="sep"&gt;&&lt;/div&gt;
+      &lt;div class="sep"&gt;&&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="line"&gt;
+      &lt;div class="sep"&gt;&&lt;/div&gt;
+      &lt;div class="sep"&gt;&&lt;/div&gt;
+      &lt;div class="sep"&gt;&&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="line"&gt;
+      &lt;div class="sep"&gt;&&lt;/div&gt;
+      &lt;div class="sep"&gt;&&lt;/div&gt;
+      &lt;div class="sep"&gt;&&lt;/div&gt;
+      &lt;div class="sep"&gt;&&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  And so on...
+      </pre>
+    </div>
+    <br /><br />
+    <p class="text-justify">You can also use specific width's, and the grid will fill itself with the rest:</p>
+    <div class="block">
+      <div class="line ung">
+        <div class="sep ung" style="width:80%">80%</div>
+        <div class="sep ung">&</div>
+      </div>
+      <div class="line ung">
+        <div class="sep ung" style="width:40%">40%</div>
+        <div class="sep ung" style="width:20%">20%</div>
+        <div class="sep ung" style="width:40%">40%</div>
+      </div>
+      <div class="line ung">
+        <div class="sep ung">&</div>
+        <div class="sep ung" style="width:150px">150px</div>
+      </div>
+      <div class="line ung">
+        <div class="sep ung" style="width:20%">20%</div>
+        <div class="sep ung" style="width:100px">100px</div>
+        <div class="sep ung">&</div>
+        <div class="sep ung" style="width:25%">25%</div>
+      </div>
+      <div class="line ung">
+        <div class="sep ung" style="width:80%">80%</div>
+        <div class="sep ung">&</div>
+      </div>
+    </div>
+    <div class="block">
+      <pre class="highl dark" data-code="HTML">
+  &lt;div class="block">
+    &lt;div class="line">
+      &lt;div class="sep" style="width:80%">80%&lt;/div>
+      &lt;div class="sep">&&lt;/div>
+    &lt;/div>
+    &lt;div class="line">
+      &lt;div class="sep" style="width:40%">40%&lt;/div>
+      &lt;div class="sep" style="width:20%">20%&lt;/div>
+      &lt;div class="sep" style="width:40%">40%&lt;/div>
+    &lt;/div>
+    &lt;div class="line">
+      &lt;div class="sep">&&lt;/div>
+      &lt;div class="sep" style="width:150px">150px&lt;/div>
+    &lt;/div>
+    &lt;div class="line">
+      &lt;div class="sep" style="width:20%">20%&lt;/div>
+      &lt;div class="sep" style="width:100px">100px&lt;/div>
+      &lt;div class="sep">&&lt;/div>
+      &lt;div class="sep" style="width:25%">25%&lt;/div>
+    &lt;/div>
+  &lt;/div>
+      </pre>
+      <p class="text-justify"><small><strong>NOTE:</strong> If you look at the actual source-code of this page, you'll notice some <code>.und</code> classes there. They are only to format and color these grids, as they are are-boned.</small></p>
+    </div>
+    
+    <br /><br /><hr>
+    <h4>Another Grid</h4>
+    <p class="text-justify">Originally from <a href="https://github.com/neculaesei/simplecss" target="_blank">Andrei Neculaesei's Simple.css</a>. It was a bare-boned (and awesome) responsive CSS Framework, from which I took the responsive grid. Here's how it works:</p>
+    <p class="text-justify">The basic idea is that you build a grid with up to twelve collumns. To build it you use this format: <code>.w1/3</code>, which means it occupies one third of the parent element's total width. You can use <code>w1/2, w2/4</code>, etc. to make a 50% collumn. Any version of the mathematical combinations will work, as long as it adds up to 1 (1/1, 2/2, 3/3, and so on).</p>
+    <p class="text-justify">Ok, so let's say you want three rows. The first will have 3 columns, all equal. The second will have 2 columns, with the first having 3/5 of the total width. And the third will be divided in half:</p>
+    <div class="block">
+      <div class="line ung">
+        <div class="sep ung w1/3">w1/3</div>
+        <div class="sep ung w1/3">w1/3</div>
+        <div class="sep ung w1/3">w1/3</div>
+      </div>
+      <div class="line ung">
+        <div class="sep ung w3/5">w3/5</div>
+        <div class="sep ung ">(no size inserted)</div>
+      </div>
+      <div class="line ung">
+        <div class="sep ung w1/2">w1/2</div>
+        <div class="sep ung w3/6">w3/6</div>
+      </div>
+    </div>
+    <div class="block">
+      <pre class="highl dark" data-code="HTML">
+  &lt;div class="block"&gt;
+    &lt;div class="line"&gt;
+      &lt;div class="sep w1/3"&gt;w1/3&lt;/div&gt;
+      &lt;div class="sep w1/3"&gt; w1/3&lt;/div&gt;
+      &lt;div class="sep w1/3"&gt;w1/3&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="line"&gt;
+      &lt;div class="sep w3/5"&gt;w3/5&lt;/div&gt;
+      &lt;div class="sep "&gt;(no size inserted)&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="line"&gt;
+      &lt;div class="sep w1/2"&gt;w1/2&lt;/div&gt;
+      &lt;div class="sep w3/6"&gt;w3/6&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+      </pre>
+      <p class="text-justify">
+        <small>
+          <strong>NOTE:</strong> On the second line, I didn't need to fill the last collumn, because it will auto-ajust to fit.
+          <br />
+          On the last line, <code>1/2 = 3/6 = 0.5</code>. So you can use that combination.
+        </small>
+      </p>
+    </div>
+    <p class="text-justify">This grid can also be configured to respond differently to different sizes of screens. There's the normal size, from 750px width and up. Tablet size, from 480 to 750px. And Mobile (less than 480px). Tablet and Mobile sizes can be accessed by appending <code>t:</code> or <code>m:</code> to your desired display for those devices. Ex: <code>sep w1/3 t:w1/2 m:1/1</code>. This would produce a collumn that would take one third of the screen on a computer, a half on a table, and the full width on a smartphone.</p>
+    <p class="text-center"><small>(Resize this window)</small></p>
+    <div class="block">
+      <div class="line ung">
+        <div class="sep ung w1/3 t:w1/12 m:w1/2"></div>
+        <div class="sep ung w1/3 t:w8/12 m:w1/4"></div>
+        <div class="sep ung w1/3 t:w3/12 m:w1/4"></div>
+      </div>
+      <div class="line ung">
+        <div class="sep ung w1/12 t:w3/7 m:w1/2"></div>
+        <div class="sep ung w11/12 t:w4/7 m:w1/2"></div>
+      </div>
+    </div>
+    <div class="block">
+      <pre class="highl dark" data-code="HTML">
+  &lt;div class="block"&gt;
+    &lt;div class="line"&gt;
+      &lt;div class="sep w1/3 t:w1/12 m:w1/2"&gt;&lt;/div&gt;
+      &lt;div class="sep w1/3 t:w8/12 m:w1/4"&gt;&lt;/div&gt;
+      &lt;div class="sep w1/3 t:w3/12 m:w1/4"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="line"&gt;
+      &lt;div class="sep w1/12 t:w3/7 m:w1/2"&gt;&lt;/div&gt;
+      &lt;div class="sep w11/12 t:w4/7 m:w1/2"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+      </pre>
+    </div>
+
+    <br /><br /><hr>
+    <h4>Video Wrapper</h4>
+    <p class="text-justify">Originally from <a href="http://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php" target="_blank">CSS Tricks</a>. It will allow you to have responsive video, so you won't lose either the ratio of your videos, nor the mobile size of your page when viewed on a small device.</p>
+    <p class="text-justify">You just need to use the <code>.videoWrapper</code> class, and inside it, and one of the following: <code>&lt;iframe&gt;</code>, <code>&lt;object&gt;</code>, <code>&lt;embed&gt;</code>.</p>
+    <p class="text-justify">Here's an example:</p>
+    <div class="block">
+      <div class="line">
+        <div class="sep w2/3">
+          One bigger:
+          <div class="videoWrapper">
+            <iframe src="//www.youtube.com/embed/YXVoqJEwqoQ" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="sep w1/3">
+          One smaller:
+          <div class="videoWrapper">
+            <iframe src="//www.youtube.com/embed/YXVoqJEwqoQ" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="line">
+        <div class="sep">
+          One that fits the entire parent div
+          <div class="videoWrapper">
+            <iframe src="//www.youtube.com/embed/YXVoqJEwqoQ" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br/>
+    <div class="block">
+      <pre class="highl dark" data-code="HTML">
+  &lt;div class="line"&gt;
+    &lt;div class="sep w2/3"&gt;
+      One bigger:
+      &lt;div class="videoWrapper"&gt;
+        &lt;iframe src="//www.youtube.com/embed/YXVoqJEwqoQ" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="sep w1/3"&gt;
+      One smaller:
+      &lt;div class="videoWrapper"&gt;
+        &lt;iframe src="//www.youtube.com/embed/YXVoqJEwqoQ" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;br /&gt;
+  &lt;div class="line"&gt;
+    &lt;div class="sep"&gt;
+      One that fits the entire screen
+      &lt;div class="videoWrapper"&gt;
+        &lt;iframe src="//www.youtube.com/embed/YXVoqJEwqoQ" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+      </pre>
+    </div>
+
+    <br /><br /><hr>
+    <h4>Code Highlighter</h4>
+    <p class="text-justify">Yes, the code highlighter you've been looking at is also part of this Toolkit! Cool, huh?</p>
+    <p class="text-justify">This is a tweak I made to IAmCreative's Code Highlighter. You can check the original work <a href="http://blog.iamcreative.me/code-snippets/pure-css3-code-highlighter/" target="_blank">here</a>. It's made in pure CSS. No JavaScript (so no actual syntax highlight), so it's incredibly light.</p>
+    <p class="text-justify">Extremely easy to use, just call the <code>&lt;pre&gt;</code> element and assign the <code>.highl</code> class to it. If you want a dark theme, append <code>.dark</code>. If you want a title (the language you are using perhaps?), append <code>data-code="language"</code> too. Easy!</p>
+    <p class="text-justify">Here are some examples, with the code being the necessary line to call it:</p>
+    <div class="block">
+      <pre class="highl" data-code="HTML">
+  &lt;pre class="highl" data-code="HTML"&gt;
+      </pre>
+      <br />
+      <pre class="highl dark" data-code="HTML">
+  &lt;pre class="highl dark" data-code="HTML"&gt;
+      </pre>
+      <p class="text-justify">
+        <small><strong>NOTE:</strong> If the background lines are not properly aligned with the code, just edit the line with <code>pre.highl { background-position: 0 -1px; }</code> (change the <code>-1px</code> to another value).</small>
+      </p>
+    </div>
+
+    <br /><br /><hr>
+    <h4>Other Elements:</h4>
+    <ul>
+      <li class="text-justify">Just some simple text alignment elements for you: <code>.text-left</code>, <code>.text-right</code>, <code>.text-center</code>, <code>.text-justify</code>.</li>
+      <li class="text-justify">Some simple element alignment elements: <code>.left</code>, <code>.right</code>, <code>.center</code>.</li>
+      <li class="text-justify"><code>.disp-block</code> will change the display of an element to block.</li>
+      <li class="text-justify">Use the <code>.block</code> to create a simple container for your content. It works almost like Bootstrap's <code>.container</code>.</li>
+      <li class="text-justify">Use the <code>&lt;code&gt;</code> tag to type code, commands, and that sort of stuff.</li>
+      <li class="text-justify">Use <code>.round</code> make the corners round on elements that don't have it.</li>
+      <li class="text-justify">
+        Use <code>.visible</code> and <code>.invisible</code> to show or hide elements. It also allows you to show and hide elements based on the device used. Ex. <code>t:invisible m:visible</code> will hide the element on a Tablet, but show it on a Computer and Smartphone (you don't need to state that the computer is <code>.visible</code>).
+        <br />
+        <p class="text-center">
+          <small>(Resize this window)</small>
+          <br />
+          <span class="t:invisible m:invisible" style="background: #00FF00;">Your are using a device with more than 750px width!</span>
+          <span class="invisible t:visible m:invisible" style="background: #FFFF00;">Your are using a device between 480 and 750px width!</span>
+          <span class="invisible t:invisible m:visible" style="background: #3399FF; color: #fff;">Your are using a device with less than 480px width!</span>
+        </p>
+      </li>
+    </ul>
+		<div class="block">
+          <pre class="highl dark" data-code="HTML">
+  &lt;span class="t:invisible m:invisible" style="background: #00FF00;"&gt;
+    Your are using a device with more than 750px width!
+  &lt;/span&gt;
+  &lt;span class="invisible t:visible m:invisible" style="background: #FFFF00;"&gt;
+    Your are using a device between 480 and 750px width!
+  &lt;/span&gt;
+  &lt;span class="invisible t:invisible m:visible" style="background: #3399FF; color: #fff;"&gt;
+    Your are using a device with less than 480px width!
+  &lt;/span&gt;
+          </pre>
+        </div>
+  </div>
+
+  <br /><br /><hr>
+  <h3>License</h3>
+  <p class="text-justify">Utility.css is provided under the <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT license</a>.</p>
+</div>
+
+	</body>
+</html>
