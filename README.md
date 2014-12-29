@@ -7,7 +7,7 @@ All the tools used have liks to the original project, which in some cases, is wa
 
 Example usage:
 ============
-You can read the documentation [here](https://fgarci03.github.io/utilitycss/)
+You can read the documentation [here](http://fgarci03.github.io/utilitycss/)
 
 
 Roadmap:
