@@ -12,6 +12,7 @@ You can read the documentation [here](https://fgarci03.github.io/utilitycss/)
 
 Roadmap:
 ============
+The stylesheet is currently being ported to SASS. I'm still to young at it, so I'm taking my time to do it. It is perfectly usable though, the SCSS files aren't yet on the desired format. You are very welcome to help me building a beautifull .scss that produces a clean CSS output! (I'm also having some trouble using SASS to minify the .css file... Still haven't figured out what exactly.)
 The only goal to this sylesheet is to provide a simple and light set of tools to use on any project. Anything can evolve from there.
 There are, although, some features I'm thinking about implementing:
 + Some simple menus (fixed, static, etc);

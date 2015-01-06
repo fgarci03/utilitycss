@@ -1,0 +1,84 @@
+/* The main styling classes */
+
+.block {
+  padding: 1% 2%;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  &:after {
+    clear: both;
+    content: " ";
+    display: table;
+  }
+}
+
+.row:after {
+  clear: both;
+  content: " ";
+  display: table;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.disp-block {
+  display: block;
+}
+
+.round {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: inline-block;
+}
+
+@media (max-width: 750px) {
+  .t\3A invisible {
+    display: none;
+  }
+  .t\3A visible {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 480px) {
+  .m\3A invisible {
+    display: none;
+  }
+  .m\3A visible {
+    display: inline-block;
+  }
+}
