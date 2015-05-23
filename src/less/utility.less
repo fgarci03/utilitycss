@@ -4,7 +4,7 @@
  * Utility.css is a simple utility set of "tools" that will *
  * make your life easier while building a website.          *
  * Compatible with other css frameworks, it just adds a few *
- * tweaks to allow simple costumization.                    *
+ * tweaks to allow simple customization.                    *
  *                                                          *
  * Built using the most awesome features I found on the     *
  * internet, all credits are given to their respective      *
@@ -20,17 +20,10 @@
  *                                                          *
  ************************************************************/
 
-@import 'modules/base';
+@import 'common/variables.less';
+@import 'common/main.less';
 
-// Default page elements
-@import 'partials/elements';
-// Basic styles
-@import 'partials/styles';
-
-// --------------------- \\
-// ---The Utilities!!--- \\
-// --------------------- \\
-@import 'partials/highlight';
-@import 'partials/videoWrapper';
-@import 'partials/grids';
-
+@import 'modules/css-code-highlighter.less';
+@import 'modules/responsive-video-wrapper.less';
+@import 'modules/ungrid.less';
+@import 'modules/simplecss.less';

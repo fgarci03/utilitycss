@@ -1,0 +1,30 @@
+{
+  "name": "utilitycss",
+  "version": "0.1.0",
+  "title": "Utility CSS",
+  "description": "Utility.css is a simple utility set of 'tools' that will make your life easier while building a website. Compatible with other css frameworks, it just adds a few tweaks to allow simple customization.",
+  "author": {
+    "name": "Filipe Garcia",
+    "homepage": "http://filipe-garcia.com"
+  },
+  "repository": "https://github.com/fgarci03/utilitycss.git",
+  "licence": "MIT",
+  "homepage": "https://fgarci03.github.io/utilitycss/",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-add-comment": "^1.1.5",
+    "grunt-autoprefixer": "^3.0.0",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-connect": "~0.8.0",
+    "grunt-contrib-copy": "~0.6.0",
+    "grunt-contrib-cssmin": "^0.12.3",
+    "grunt-contrib-less": "~0.11.4",
+    "grunt-contrib-watch": "~0.6.1",
+    "load-grunt-tasks": "~0.6.0",
+    "time-grunt": "~1.0.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}

@@ -1,0 +1,38 @@
+//******************************************
+// SimpleCSS*                              *
+//                                         *
+// https://github.com/neculaesei/simplecss *
+// *(with tweaks)                          *
+//******************************************/
+
+/* Pure CSS3 Code Highlighter */
+.generate-item(@numOfcols, @numerator, @denominator: 1) when (@denominator =< @numOfcols) {
+  .generate-item(@numOfcols, @numerator, (@denominator + 1));
+
+  // if
+  & when (@denominator >= @numerator) {
+    .w@{numerator}\/@{denominator} {
+      width: (100% * (@numerator / @denominator));
+    }
+  }
+}
+
+.generate-simplecss-grid(@numOfcols, @numerator: 1) when (@numOfcols >= @numerator) {
+  // Generate for regular screensize
+  .generate-item(@numOfcols, @numerator);
+
+  // Generate for tablet screensize
+  @media (max-width: @screen-tablet) {
+    .generate-item(@numOfcols, @numerator);
+  }
+
+  // Generate for phone screensize
+  @media (max-width: @screen-phone) {
+    .generate-item(@numOfcols, @numerator);
+  }
+
+  .generate-simplecss-grid(@numOfcols, (@numerator + 1));
+}
+
+
+.generate-simplecss-grid(@number-of-columns-in-grid);

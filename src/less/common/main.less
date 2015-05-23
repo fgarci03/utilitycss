@@ -1,0 +1,128 @@
+//****************************
+// Main Styles               *
+//                           *
+// Here is the basic styling *
+// this stylesheet provides  *
+//****************************/
+
+/* Default styles */
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+
+  // For iOS Safari
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+code {
+  color: @code-font-color;
+  background: @code-background-color;
+  display: inline-block;
+  border: 1px solid @code-border-color;
+  border-radius: @default-border-radius;
+  vertical-align: middle;
+  margin-left: 1px;
+  margin-right: 1px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+li {
+  padding-bottom: 1%;
+}
+
+.block {
+  padding: 1% 2%;
+
+  &:after {
+    clear: both;
+    content: " ";
+    display: table;
+  }
+}
+
+.row {
+  &:after {
+    clear: both;
+    content: " ";
+    display: table;
+  }
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.disp-block {
+  display: block;
+}
+
+.round {
+  border-radius: @default-border-radius;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: inline-block;
+}
+
+@media (max-width: @screen-tablet) {
+  .t\3Ainvisible {
+    display: none;
+  }
+
+  .t\3Avisible {
+    display: inline-block;
+  }
+}
+
+@media (max-width: @screen-phone) {
+  .m\3Ainvisible {
+    display: none;
+  }
+
+  .m\3Avisible {
+    display: inline-block;
+  }
+}

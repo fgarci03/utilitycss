@@ -1,0 +1,20 @@
+{
+  "name": "utilitycss",
+  "main": "src/css/utility.css",
+  "version": "0.0.1",
+  "description": "Utility.css is a simple utility set of 'tools' that will make your life easier while building a website. Compatible with other css frameworks, it just adds a few tweaks to allow simple customization.",
+  "authors": [
+    "Filipe Garcia <htto://filipe-garcia.com"
+  ],
+  "keywords": [
+    "utility",
+    "css",
+    "less",
+    "utilitycss"
+  ],
+  "license": "MIT",
+  "homepage": "https://fgarci03.github.io/utilitycss/",
+  "ignore": [
+    "node_modules"
+  ]
+}

@@ -1,0 +1,48 @@
+//******************************************
+// Pure CSS3 Code Highlighter              *
+//                                         *
+// http://github.com/fgarci03/highlightcss *
+//******************************************/
+
+/* Pure CSS3 Code Highlighter */
+pre.highl {
+  padding: 0 19px 20px 10px;
+  border: solid 1px #666;
+  line-height: 15px;
+  width: 600px;
+  overflow: auto;
+  word-wrap: normal;
+  white-space: pre;
+  border-radius: 3px;
+  background-color: #cdcdcd;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7) 50%, transparent 50%, transparent);
+  background-size: 30px 30px;
+  background-position: 0 0;
+
+  &:before {
+    font: 700 1.2em / 1em arial;
+    content: attr(data-code);
+    display: block;
+    background: #00FF00;
+    color: #333;
+    padding: 5px 15px;
+    margin: 0 -19px 18px -10px;
+    border-bottom: solid 1px #666;
+  }
+}
+
+pre.highl.dark {
+  color: #dbdbdb;
+  background-color: #212121;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2) 50%, transparent 50%, transparent);
+
+  &:before {
+    background: #d1d1d1;
+  }
+}
+
+@media (max-width: @screen-tablet) {
+  pre.highl {
+    width: auto;
+  }
+}

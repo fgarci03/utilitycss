@@ -13,6 +13,23 @@
   background-color: #95cbcb;
 }
 
+.text-gray {
+  color: #999;
+}
+
+.green {
+  background: #00FF00;
+}
+
+.yellow {
+  background: #FFFF00;
+}
+
+.blue {
+  background: #3399FF;
+  color: #fff;
+}
+
 @media (max-width: 30em) {
 .sep.ung {
   height: 1em;

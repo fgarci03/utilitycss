@@ -1,0 +1,14 @@
+Index: dist/utility.css
+===================================================================
+--- dist/utility.css
++++ dist/utility.css
+@@ -931,6 +931,5 @@
+ @media (max-width: 480px) {
+   .w12\/12 {
+     width: 100%;
+   }
++}
+\ No newline at end of file
+-}
+-/*# sourceMappingURL=/utility.css.map */
+\ No newline at end of file
